@@ -25,7 +25,7 @@ def graficar_frecuencia(palabras_frecuencia):
     # Crear el gráfico de barras
     plt.bar(palabras, frecuencias, color='skyblue')
     plt.xlabel('Palabras')
-    plt.ylabel('Frecuencia')
+    plt.ylabel('Repeticiones')
     plt.title('Top 10 Palabras Más Frecuentes')
     plt.xticks(rotation=45)  # Rotar etiquetas para que se vean mejor
     plt.tight_layout()  # Ajustar el layout para que las etiquetas no se corten
