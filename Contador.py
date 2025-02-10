@@ -32,7 +32,7 @@ def graficar_frecuencia(palabras_frecuencia):
     plt.show()
 
 # Ruta del archivo .txt
-archivo_txt = 'Merge.txt'
+archivo_txt = 'Entrada.txt'
 
 # Contar palabras y graficar resultados
 palabras_frecuencia = contar_palabras(archivo_txt)
