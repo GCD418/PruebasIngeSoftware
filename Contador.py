@@ -13,8 +13,8 @@ def contar_palabras(archivo_txt):
     # Contar la frecuencia de cada palabra
     contador = Counter(palabras)
 
-    # Obtener las 8 palabras más frecuentes
-    palabras_comunes = contador.most_common(8)
+    # Obtener las 3 palabras más frecuentes
+    palabras_comunes = contador.most_common(3)
 
     return palabras_comunes
 
@@ -26,7 +26,7 @@ def graficar_frecuencia(palabras_frecuencia):
     plt.bar(palabras, frecuencias, color='skyblue')
     plt.xlabel('Palabras')
     plt.ylabel('Repeticiones')
-    plt.title('Top 8 Palabras Más Frecuentes')
+    plt.title('Top 3 Palabras Más Frecuentes')
     plt.xticks(rotation=40)  # Rotar etiquetas para que se vean mejor
     plt.tight_layout()  # Ajustar el layout para que las etiquetas no se corten
     plt.show()
