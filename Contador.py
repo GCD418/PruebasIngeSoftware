@@ -27,7 +27,7 @@ def graficar_frecuencia(palabras_frecuencia):
     plt.xlabel('Palabras')
     plt.ylabel('Repeticiones')
     plt.title('Top 10 Palabras Más Frecuentes')
-    plt.xticks(rotation=45)  # Rotar etiquetas para que se vean mejor
+    plt.xticks(rotation=40)  # Rotar etiquetas para que se vean mejor
     plt.tight_layout()  # Ajustar el layout para que las etiquetas no se corten
     plt.show()
 
